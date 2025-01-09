@@ -1,0 +1,40 @@
+
+.glownyblok {
+    display:flex;
+}
+.lewyblok, .prawyblok {
+    width:  50%;
+    background-color: rgb(146, 184, 112);
+    text-align: center;
+    height:  170px;
+}
+
+.baner {
+    background-color: rgb(100, 61, 49);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    height:  80px;
+}
+
+.glownyblok {
+    display: flex;
+}
+
+.lewyblok, .prawyblok {
+    width:  50%;
+    background-color: rgb(146, 184, 112);
+    height:  450px;
+}
+.table {
+    border: 2px dashed green;
+    margin: 30px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(100, 61, 49);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    height:  80px;
+}
