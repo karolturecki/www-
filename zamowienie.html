@@ -1,10 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Fabryka cukierków</title>
+    <link rel="stylesheet" href="styl10.css">
 </head>
 <body>
-
+<section class="gorablock">
+    <div class="goralewy">
+        <a href="zamowienie.html" class="plecky">Zamów cukierki </a>
+    </div>
+    <div class="prawygorny">
+        <a href="index.html">
+            <img src="cukierki2.png" alt="Logo">
+        </a>
+    </div>
+</section>
+<section class="baner">
+    <h1 class="letter-spacing">Strefa zamówień</h1>
+</section>
+<section class="glownyblok">
+    <div class="lewyblok">
+        <p>Numer kształtu: <input type="number" id="ksztalt"></p>
+        <p>skomponuj swój kolor, podaj RGB:</p>
+        <span>R: <input type="number" id="r"></span>
+        <span>G: <input type="number" id="g"></span>
+        <span>B: <input type="number" id="b"></span>
+        <button id="zamowienieButton" onclick="zamowienie()">Zamówienie</button>
+        <p id="order-text">Twoje zamówienie</p>
+        <button id="kolorButton" onclick="kolor()">Kolor</button>
+    </div>
+    <div class="prawyblok">
+        <h2>Nasza oferta</h2>
+        <table class="table">
+            <tr>
+                <td>Ksztalty</td>
+                <td rowspan="2">Możesz zamówić dowolny kolor cukierka</td>
+            </tr>
+            <tr>
+                <td>
+                    <ol>
+                        <li>cytryna</li>
+                        <li>lisc</li>
+                        <li>banan</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+    </div>
+</section>
+<footer class="footer">
+    <p>Autor strony: <strong>000000000</strong></p>
+</footer>
+<script src="index.js"></script>
 </body>
 </html>

@@ -1,12 +1,16 @@
-
-.glownyblok {
-    display:flex;
+body {
+    font-family: Helvetica, sans-serif;
 }
-.lewyblok, .prawyblok {
-    width:  50%;
+
+.gorablock {
+    display: flex;
+}
+
+.goralewy, .prawygorny {
+    width: 50%;
     background-color: rgb(146, 184, 112);
     text-align: center;
-    height:  170px;
+    height: 170px;
 }
 
 .baner {
@@ -14,7 +18,7 @@
     color: white;
     text-align: center;
     padding: 5px;
-    height:  80px;
+    height: 80px;
 }
 
 .glownyblok {
@@ -22,19 +26,43 @@
 }
 
 .lewyblok, .prawyblok {
-    width:  50%;
+    width: 50%;
     background-color: rgb(146, 184, 112);
-    height:  450px;
+    height: 450px;
 }
-.table {
+
+table, td {
     border: 2px dashed green;
     margin: 30px;
     padding: 20px;
 }
+
 .footer {
     background-color: rgb(100, 61, 49);
     color: white;
     text-align: center;
     padding: 5px;
-    height:  80px;
+    height: 220px;
+}
+
+.letter-spacing {
+    letter-spacing: 20px;
+    font-size: 250%;
+}
+
+.prawyblock {
+    padding: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.plecky  {
+    text-decoration: none;
+    font-size: 150%;
+    background: url("cukierki1.jpg");
+    padding-right: 30px;
+    padding-bottom: 120px;
 }
